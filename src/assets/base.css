@@ -1,0 +1,95 @@
+/* color palette from <https://github.com/vuejs/theme> */
+/*@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+:root {
+  --arrow-space: 0.625rem;
+  --main-backgound: #f2f6f7;
+  --visible-gray: rgb(90, 90, 90);
+  --raisin-black: #2e282a;
+  --light-white: #fff;
+  --contrasting-gray: gray;
+  --mark-container: 0.625rem;
+  --light-gray: rgb(177, 177, 177);
+  --correct-answer: #04aa6d;
+  --incorrect-answer: #ff5c33;
+  --zafre: #0d21a1;
+  --dark-blue: #00227a;
+  --teal: #03dac5;
+  --always-dark: #121212;
+  --cicular-progress: 100px;
+  --outer-cicular: 110px;
+  --indigo: #304ffe;
+  --min-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --land-image: url("../assets/landlight.jpg");
+  --m-text-color: #000;
+  --color-heading: #0d0908;
+  --skeleton-base: #ddd;
+  --skeleton-highlight: #eee;
+  --background-select: #ffffff;
+  --text-select: #333333;
+  --border-select: #cccccc;
+  --padding: 0.5rem;
+  --border-radius: 5px;
+  --transition: 0.3s ease;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-backgound: #0d0908;
+    --visible-gray: rgb(165, 165, 165);
+    --raisin-black: #d1d7d5;
+    --light-white: #121212;
+    --contrasting-gray: #7f7f7f;
+    --light-gray: rgb(78, 78, 78);
+    --min-shadow: none;
+    --land-image: url("../assets/landdark.png");
+    --m-text-color: #fff;
+    --color-heading: #f2f6f7;
+    --zafre: #ef798a;
+    --skeleton-base: #333;
+    --skeleton-highlight: #444;
+    --background-select: #1e1e1e;
+    --text-select: #f0f0f0;
+    --border-select: #444444;
+  }
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.6;
+  font-family: "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--main-backgound);
+}
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+svg {
+  color: var(--m-text-color);
+}
+.close {
+  display: none;
+}
+.open {
+  display: flex;
+}
+.show {
+  display: block;
+}
+.error-label {
+  color: var(--incorrect-answer);
+}
