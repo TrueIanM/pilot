@@ -4,19 +4,19 @@
 
     This is a software that is supposed to allow users to login and work on exam questions
 
-    ![Users](https://aviationexamkenya.com/profile/logpilot.png)
+![Users](https://aviationexamkenya.com/profile/logpilot.png)
 
 ## Exam
 
     Users are suppossed to take exams here
 
-    ![Exam](https://aviationexamkenya.com/profile/exampilot.png)
+![Exam](https://aviationexamkenya.com/profile/exampilot.png)
 
 ## Results
 
     Users are suppossed to receive their results here
 
-    ![Results](https://aviationexamkenya.com/profile/respilot.png)
+![Results](https://aviationexamkenya.com/profile/respilot.png)
 
 ## Recommended IDE Setup
 
